@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Django on Денис Казаков</title>
+    <link>https://kazakovdenis.github.io/ru/tags/django/</link>
+    <description>Recent content in Django on Денис Казаков</description>
+    <image>
+      <url>https://kazakovdenis.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kazakovdenis.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us,ru-ru</language>
+    <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakovdenis.github.io/ru/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Преобразование объекта с Camel case ключами в snake case в Django REST framework</title>
+      <link>https://kazakovdenis.github.io/ru/notes/camel_case_to_snake_case/</link>
+      <pubDate>Fri, 01 Oct 2021 20:00:00 +0300</pubDate>
+      
+      <guid>https://kazakovdenis.github.io/ru/notes/camel_case_to_snake_case/</guid>
+      <description>Рассмотрим пример ниже:
+from django.utils.functional import cached_property from rest_framework import serializers class KeyMappingSerializerMixin: Meta: type @cached_property def fields(self): # noinspection PyUnresolvedReferences fields = super().fields key_map = getattr(self.Meta, &amp;#39;key_map&amp;#39;, {}) for target, source in key_map.items(): if target != source: fields[target].bind(field_name=source, parent=self) return fields class ExternalServiceCallbackSerializer(KeyMappingSerializerMixin, serializers.ModelSerializer): class Meta: model = ExternalServiceCallback fields = (&amp;#39;timestamp&amp;#39;, &amp;#39;service_name&amp;#39;, &amp;#39;user_data&amp;#39;) key_map = { &amp;#39;timestamp&amp;#39;: &amp;#39;createdAt&amp;#39;, &amp;#39;service_name&amp;#39;: &amp;#39;service&amp;#39;, &amp;#39;user_data&amp;#39;: &amp;#39;userData&amp;#39;, } </description>
+    </item>
+    
+  </channel>
+</rss>
