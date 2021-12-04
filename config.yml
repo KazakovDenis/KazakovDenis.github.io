@@ -1,0 +1,160 @@
+baseURL: "https://kazakovdenis.github.io/"
+languageCode: "en-us,ru-ru"
+title: "Denis Kazakov"
+theme: "PaperMod"
+paginate: 10
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+#googleAnalytics: G-T1234ABCD
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Denis Kazakov"
+  description: "Denis Kazakov - backend engineer"
+  keywords: [Blog, Portfolio, PaperMod, Hugo]
+  author: ["Denis Kazakov"]
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  displayFullLangName: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    extended: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/denis-kazakov/"
+    - name: github
+      url: "https://github.com/KazakovDenis"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/story/denis-kazakov"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+#  editPost:
+#    URL: "https://github.com/KazakovDenis/KazakovDenis.github.io/content"
+#    Text: "Suggest Changes" # edit text
+#    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+languages:
+  en:
+    languageName: ":gb:"
+    weight: 1
+    label:
+      text: "Home"
+#      icon: /apple-touch-icon.png
+#      iconHeight: 35
+    menu:
+      main:
+        - name: Notes
+          url: notes/
+          weight: 10
+#        - name: Projects
+#          url: projects/
+#          weight: 20
+        - name: About
+          url: about/
+          weight: 30
+        - name: Search
+          url: search/
+          weight: 40
+    profileMode:
+      enabled: true # needs to be explicitly set
+      title: "Denis Kazakov"
+      subtitle: "Backend engineer @ [ITASystems](https://itasystems.ru)"
+      imageUrl: "/python.png"
+      imageWidth: 120
+      imageHeight: 120
+      imageTitle: "Python"
+    #    buttons:
+    #      - name: Notes
+    #        url: notes
+
+  ru:
+    languageName: ":ru:"
+    languageAltTitle: Русский
+    weight: 2
+    title: "Денис Казаков"
+    label:
+      text: "Главная"
+    menu:
+      main:
+        - name: Заметки
+          url: notes/
+          weight: 10
+#        - name: Проекты
+#          url: projects/
+#          weight: 20
+        - name: Обо мне
+          url: about/
+          weight: 30
+        - name: Поиск
+          url: search/
+          weight: 40
+    profileMode:
+      enabled: true
+      title: "Денис Казаков"
+      subtitle: "Backend-разработчик @ [ITASystems](https://itasystems.ru)"
+      imageUrl: "/python.png"
+      imageWidth: 120
+      imageHeight: 120
+      imageTitle: "Python"

@@ -1,0 +1,7 @@
+.dark {
+    --inverted: invert(1);
+}
+
+.profile_inner img {
+    filter: var(--inverted);
+}
