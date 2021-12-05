@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Денис Казаков</title>
-    <link>https://kazakovdenis.github.io/ru/tags/</link>
+    <link>https://kazakov.ru.net/ru/tags/</link>
     <description>Recent content in Tags on Денис Казаков</description>
     <image>
-      <url>https://kazakovdenis.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://kazakovdenis.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us,ru-ru</language>
-    <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakovdenis.github.io/ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakov.ru.net/ru/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django</title>
-      <link>https://kazakovdenis.github.io/ru/tags/django/</link>
+      <link>https://kazakov.ru.net/ru/tags/django/</link>
       <pubDate>Fri, 01 Oct 2021 20:00:00 +0300</pubDate>
       
-      <guid>https://kazakovdenis.github.io/ru/tags/django/</guid>
+      <guid>https://kazakov.ru.net/ru/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DRF</title>
-      <link>https://kazakovdenis.github.io/ru/tags/drf/</link>
+      <link>https://kazakov.ru.net/ru/tags/drf/</link>
       <pubDate>Fri, 01 Oct 2021 20:00:00 +0300</pubDate>
       
-      <guid>https://kazakovdenis.github.io/ru/tags/drf/</guid>
+      <guid>https://kazakov.ru.net/ru/tags/drf/</guid>
       <description></description>
     </item>
     

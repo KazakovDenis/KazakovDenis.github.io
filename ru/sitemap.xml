@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kazakovdenis.github.io/ru/tags/django/</loc>
+    <loc>https://kazakov.ru.net/ru/tags/django/</loc>
     <lastmod>2021-10-01T20:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/tags/django/"
+                href="https://kazakov.ru.net/tags/django/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/tags/django/"
+                href="https://kazakov.ru.net/ru/tags/django/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/tags/drf/</loc>
+    <loc>https://kazakov.ru.net/ru/tags/drf/</loc>
     <lastmod>2021-10-01T20:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/tags/drf/"
+                href="https://kazakov.ru.net/tags/drf/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/tags/drf/"
+                href="https://kazakov.ru.net/ru/tags/drf/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/notes/</loc>
+    <loc>https://kazakov.ru.net/ru/notes/</loc>
     <lastmod>2021-10-01T20:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/notes/"
+                href="https://kazakov.ru.net/notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/notes/"
+                href="https://kazakov.ru.net/ru/notes/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/tags/</loc>
+    <loc>https://kazakov.ru.net/ru/tags/</loc>
     <lastmod>2021-10-01T20:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/tags/"
+                href="https://kazakov.ru.net/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/tags/"
+                href="https://kazakov.ru.net/ru/tags/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/</loc>
+    <loc>https://kazakov.ru.net/ru/</loc>
     <lastmod>2021-10-01T20:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/"
+                href="https://kazakov.ru.net/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/"
+                href="https://kazakov.ru.net/ru/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/notes/camel_case_to_snake_case/</loc>
+    <loc>https://kazakov.ru.net/ru/notes/camel_case_to_snake_case/</loc>
     <lastmod>2021-10-01T20:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/notes/camel_case_to_snake_case/"
+                href="https://kazakov.ru.net/notes/camel_case_to_snake_case/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/notes/camel_case_to_snake_case/"
+                href="https://kazakov.ru.net/ru/notes/camel_case_to_snake_case/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/categories/</loc>
+    <loc>https://kazakov.ru.net/ru/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/categories/"
+                href="https://kazakov.ru.net/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/categories/"
+                href="https://kazakov.ru.net/ru/categories/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/about/</loc>
+    <loc>https://kazakov.ru.net/ru/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/about/"
+                href="https://kazakov.ru.net/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/about/"
+                href="https://kazakov.ru.net/ru/about/"
                 />
   </url><url>
-    <loc>https://kazakovdenis.github.io/ru/search/</loc>
+    <loc>https://kazakov.ru.net/ru/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakovdenis.github.io/search/"
+                href="https://kazakov.ru.net/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakovdenis.github.io/ru/search/"
+                href="https://kazakov.ru.net/ru/search/"
                 />
   </url>
 </urlset>

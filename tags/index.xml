@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Denis Kazakov</title>
-    <link>https://kazakovdenis.github.io/tags/</link>
+    <link>https://kazakov.ru.net/tags/</link>
     <description>Recent content in Tags on Denis Kazakov</description>
     <image>
-      <url>https://kazakovdenis.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://kazakovdenis.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us,ru-ru</language>
-    <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakovdenis.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakov.ru.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django</title>
-      <link>https://kazakovdenis.github.io/tags/django/</link>
+      <link>https://kazakov.ru.net/tags/django/</link>
       <pubDate>Fri, 01 Oct 2021 20:00:00 +0300</pubDate>
       
-      <guid>https://kazakovdenis.github.io/tags/django/</guid>
+      <guid>https://kazakov.ru.net/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DRF</title>
-      <link>https://kazakovdenis.github.io/tags/drf/</link>
+      <link>https://kazakov.ru.net/tags/drf/</link>
       <pubDate>Fri, 01 Oct 2021 20:00:00 +0300</pubDate>
       
-      <guid>https://kazakovdenis.github.io/tags/drf/</guid>
+      <guid>https://kazakov.ru.net/tags/drf/</guid>
       <description></description>
     </item>
     
