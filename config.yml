@@ -46,11 +46,11 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     extended: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
   socialIcons:
     - name: linkedin
@@ -119,7 +119,7 @@ languages:
       enabled: true # needs to be explicitly set
       title: "Denis Kazakov"
       subtitle: "Backend engineer @ [ITASystems](https://itasystems.ru)"
-      imageUrl: "/python.png"
+      imageUrl: "/img/python.png"
       imageWidth: 120
       imageHeight: 120
       imageTitle: "Python"
@@ -152,7 +152,7 @@ languages:
       enabled: true
       title: "Денис Казаков"
       subtitle: "Backend-разработчик @ [ИТИС (Единый ЦУПИС)](https://itasystems.ru)"
-      imageUrl: "/python.png"
+      imageUrl: "/img/python.png"
       imageWidth: 120
       imageHeight: 120
       imageTitle: "Python"
