@@ -4,10 +4,6 @@
     <title>Denis Kazakov</title>
     <link>https://kazakov.ru.net/</link>
     <description>Recent content on Denis Kazakov</description>
-    <image>
-      <url>https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us,ru-ru</language>
     <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakov.ru.net/index.xml" rel="self" type="application/rss+xml" />
@@ -23,12 +19,14 @@ from django.utils.functional import cached_property from rest_framework import s
     </item>
     
     <item>
-      <title>About</title>
+      <title>Denis Kazakov</title>
       <link>https://kazakov.ru.net/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kazakov.ru.net/about/</guid>
-      <description></description>
+      <description>Salute! 👋 My name is Denis, and I am a backend developer. I write in Python 🐍 and love doing optimization: diving deep into a problem and looking for solutions to it.
+I am very interested in high-load distributed systems. I believe that a long-living project requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
+I have no computer science education, but before entering IT, I had some entrepreneurial and leadership experience, so I am well aware of how to prioritize business requirements and perfectionism.</description>
     </item>
     
     

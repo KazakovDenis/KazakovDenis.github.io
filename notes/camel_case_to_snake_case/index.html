@@ -19,7 +19,7 @@ from django.utils.functional import cached_property from rest_framework import s
 <link rel=mask-icon href=https://kazakov.ru.net/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.4">
+<meta name=generator content="Hugo 0.90.0">
 <link rel=alternate hreflang=en href=https://kazakov.ru.net/notes/camel_case_to_snake_case/>
 <link rel=alternate hreflang=ru href=https://kazakov.ru.net/ru/notes/camel_case_to_snake_case/>
 <noscript>
@@ -35,11 +35,10 @@ from django.utils.functional import cached_property from rest_framework import s
 Check out below
 from django.utils.functional import cached_property from rest_framework import serializers class KeyMappingSerializerMixin: Meta: type @cached_property def fields(self): # noinspection PyUnresolvedReferences fields = super().fields key_map = getattr(self.Meta, 'key_map', {}) for target, source in key_map.items(): if target != source: fields[target].bind(field_name=source, parent=self) return fields class ExternalServiceCallbackSerializer(KeyMappingSerializerMixin, serializers.ModelSerializer): class Meta: model = ExternalServiceCallback fields = ('timestamp', 'service_name', 'user_data') key_map = { 'timestamp': 'createdAt', 'service_name': 'service', 'user_data': 'userData', } ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://kazakov.ru.net/notes/camel_case_to_snake_case/"><meta property="og:image" content="https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="notes">
+<meta property="og:url" content="https://kazakov.ru.net/notes/camel_case_to_snake_case/"><meta property="article:section" content="notes">
 <meta property="article:published_time" content="2021-10-01T20:00:00+03:00">
 <meta property="article:modified_time" content="2021-10-01T20:00:00+03:00"><meta property="og:site_name" content="Denis Kazakov">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://kazakov.ru.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name=twitter:card content="summary">
 <meta name=twitter:title content="Camel case to snake case serializer in Django REST framework">
 <meta name=twitter:description content="How to convert a dict with camel case keys into a dict with snake case keys?
 Check out below

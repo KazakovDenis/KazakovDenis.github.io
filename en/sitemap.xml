@@ -80,18 +80,6 @@
                 href="https://kazakov.ru.net/tags/"
                 />
   </url><url>
-    <loc>https://kazakov.ru.net/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/about/"
-                />
-  </url><url>
     <loc>https://kazakov.ru.net/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -102,6 +90,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kazakov.ru.net/categories/"
+                />
+  </url><url>
+    <loc>https://kazakov.ru.net/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://kazakov.ru.net/ru/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kazakov.ru.net/about/"
                 />
   </url><url>
     <loc>https://kazakov.ru.net/search/</loc>
