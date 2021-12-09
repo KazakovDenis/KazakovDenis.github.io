@@ -23,7 +23,7 @@ params:
   description: "Denis Kazakov - backend engineer"
   keywords: [Blog, Portfolio, PaperMod, Hugo]
   author: ["Denis Kazakov"]
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+#  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -59,12 +59,6 @@ params:
       url: "https://github.com/KazakovDenis"
     - name: stackoverflow
       url: "https://stackoverflow.com/story/denis-kazakov"
-
-#  analytics:
-#    google:
-#      SiteVerificationTag: "XYZabc"
-#    yandex:
-#      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -134,6 +128,8 @@ languages:
     title: "Денис Казаков"
     label:
       text: "Главная"
+#      icon: /apple-touch-icon.png
+#      iconHeight: 35
     menu:
       main:
         - name: Заметки
