@@ -15,7 +15,7 @@ diving deep into a problem and looking for solutions to it.
 I am very interested in high-load distributed systems. I believe that a long-living project 
 requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
 
-I have no computer science education, but before entering IT, I had some 
+I am self-taught and have no computer science education, but before entering IT, I had some 
 [entrepreneurial and leadership experience](#before-it), so I am well aware of how 
 to prioritize business requirements and perfectionism.
 
@@ -42,7 +42,7 @@ December 2020 - June 2021
     > - an embedded application for Xerox MFPs
     > 
     > Since the team was small, I took on some more unusual functions, such as: 
-    > - working with customers: deploying boxed software in their infrastructure,
+    > - working with customers: deploying embedded software in their infrastructure,
     > preparing for a presentation, consulting administrators
     > - working with outsourcing teams
     > - product delivery automation: 

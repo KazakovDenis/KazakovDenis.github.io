@@ -135,9 +135,9 @@ languages:
         - name: Заметки
           url: notes/
           weight: 10
-#        - name: Проекты
-#          url: projects/
-#          weight: 20
+        - name: Проекты
+          url: projects/
+          weight: 20
         - name: Обо мне
           url: about/
           weight: 30
