@@ -115,5 +115,7 @@
                 hreflang="ru"
                 href="https://kazakov.ru.net/ru/search/"
                 />
+  </url><url>
+    <loc>https://kazakov.ru.net/ru/projects/</loc>
   </url>
 </urlset>
