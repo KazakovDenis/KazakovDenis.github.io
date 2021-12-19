@@ -104,6 +104,18 @@
                 href="https://kazakov.ru.net/about/"
                 />
   </url><url>
+    <loc>https://kazakov.ru.net/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://kazakov.ru.net/ru/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kazakov.ru.net/projects/"
+                />
+  </url><url>
     <loc>https://kazakov.ru.net/search/</loc>
     <xhtml:link
                 rel="alternate"

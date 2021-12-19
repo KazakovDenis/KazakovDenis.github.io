@@ -117,5 +117,15 @@
                 />
   </url><url>
     <loc>https://kazakov.ru.net/ru/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kazakov.ru.net/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://kazakov.ru.net/ru/projects/"
+                />
   </url>
 </urlset>
