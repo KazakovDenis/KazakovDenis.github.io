@@ -97,18 +97,18 @@ languages:
 #      iconHeight: 35
     menu:
       main:
-        - name: Notes
-          url: notes/
-          weight: 10
+#        - name: Notes
+#          url: notes/
+#          weight: 10
         - name: Projects
           url: projects/
           weight: 20
         - name: About
           url: about/
           weight: 30
-        - name: Search
-          url: search/
-          weight: 40
+#        - name: Search
+#          url: search/
+#          weight: 40
     profileMode:
       enabled: true # needs to be explicitly set
       title: "Denis Kazakov"
@@ -132,18 +132,18 @@ languages:
 #      iconHeight: 35
     menu:
       main:
-        - name: Заметки
-          url: notes/
-          weight: 10
+#        - name: Заметки
+#          url: notes/
+#          weight: 10
         - name: Проекты
           url: projects/
           weight: 20
         - name: Обо мне
           url: about/
           weight: 30
-        - name: Поиск
-          url: search/
-          weight: 40
+#        - name: Поиск
+#          url: search/
+#          weight: 40
     profileMode:
       enabled: true
       title: "Денис Казаков"
