@@ -26,7 +26,7 @@ from django.utils.functional import cached_property from rest_framework import s
       <guid>https://kazakov.ru.net/about/</guid>
       <description>Salute! 👋 My name is Denis, and I am a backend developer. I write in Python 🐍 and love doing optimization: diving deep into a problem and looking for solutions to it.
 I am very interested in high-load distributed systems. I believe that a long-living project requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
-I am self-taught and have no computer science education, but before entering IT, I had some entrepreneurial and leadership experience, so I am well aware of how to prioritize business requirements and perfectionism.</description>
+Love open source and well-expertised in Django, but I&amp;rsquo;d gladly change it for something else.</description>
     </item>
     
     <item>
@@ -35,8 +35,8 @@ I am self-taught and have no computer science education, but before entering IT,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kazakov.ru.net/projects/</guid>
-      <description>💡 Suggestions to open source I want to be useful to the community and suggest improvements for tools I use myself 😊.
-Django extensions When I worked on a few new features, I often came across a situation where I had to switch between branches, roll back migrations of one branch, and apply migrations of another. As long as you work in the same Django app, no problems arise. But when migrations involve multiple Django applications, rolling back of each application becomes a frustrating chore.</description>
+      <description>💡 Contributions to open source I want to be useful to the community and suggest improvements for tools I use myself 😊.
+kafka-python One project had the need to get rid of Kafka&amp;rsquo;s consumer rebalances in order to provide constant reading from topics. However, none of the popular client libraries (kafka-python, confluent-kafka, pykafka) offered this functionality, despite the fact that it was already implemented in the 2.3.0 version of the broker.</description>
     </item>
     
     
