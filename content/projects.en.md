@@ -6,9 +6,19 @@ showtoc: true
 tocopen: true
 ---
 
-## :bulb: Suggestions to open source
+## :bulb: Contributions to open source
 I want to be useful to the community and suggest improvements for tools I use myself :blush:.
+  
+### kafka-python 
 
+One project had the need to get rid of Kafka's consumer rebalances in order to provide constant reading from topics. 
+However, none of the popular client libraries (**kafka-python**, **confluent-kafka**, **pykafka**) offered this 
+functionality, despite the fact that it was already implemented in the 2.3.0 version of the broker. I first implemented 
+this feature by overriding **KafkaConsumer** in the project repository and then opened the 
+[Pull request](https://github.com/dpkp/kafka-python/pull/2333). Unfortunately, the project is almost abandoned now.
+  
+***
+  
 ### Django extensions 
 
 When I worked on a few new features, I often came across a situation where I had to switch between branches, 
@@ -29,6 +39,16 @@ which the configuration of the client library did not allow. I suggested applyin
 
 ## :open_file_folder: My projects 
 
+### [Relatives](https://relatives.tk) - the service for building family trees 
+  
+I have long wanted to build a family tree, but I could not find suitable free tools for this, and those that were 
+found did not meet my requirements. So I decided to reinvent the wheel. And at the same time to use some 
+modern technologies for this, to get acquainted them better. That's why I chose **FastAPI** with asynchronous **ORM**, 
+although they are absolutely irrelevant, and **Django** could fit much better.  
+  
+`FastAPI` `Ormar` `Asyncio`
+***
+  
 ### Sitemap generation library
 
 The library is published at [PyPI](https://pypi.org/project/dynamic-sitemap/),

@@ -14,7 +14,10 @@ diving deep into a problem and looking for solutions to it.
 
 I am very interested in high-load distributed systems. I believe that a long-living project 
 requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
-
+  
+Love [open source](/projects/#-contributions-to-open-source) and well-expertised in Django, 
+but I'd gladly change it for something else.   
+  
 I am self-taught and have no computer science education, but before entering IT, I had some 
 [entrepreneurial and leadership experience](#before-it), so I am well aware of how 
 to prioritize business requirements and perfectionism.
