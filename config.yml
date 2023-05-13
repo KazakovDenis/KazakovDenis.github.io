@@ -112,7 +112,7 @@ languages:
     profileMode:
       enabled: true # needs to be explicitly set
       title: "Denis Kazakov"
-      subtitle: "Backend engineer @ [ITASystems](https://itasystems.ru)"
+      subtitle: "Backend team lead @ [ITASystems](https://itasystems.ru)"
       imageUrl: "/img/python.png"
       imageWidth: 120
       imageHeight: 120
@@ -147,7 +147,7 @@ languages:
     profileMode:
       enabled: true
       title: "Денис Казаков"
-      subtitle: "Backend-разработчик @ [ИТИС (Единый ЦУПИС)](https://itasystems.ru)"
+      subtitle: "Руководитель группы разработчиков @ [ИТИС (Единый ЦУПИС)](https://itasystems.ru)"
       imageUrl: "/img/python.png"
       imageWidth: 120
       imageHeight: 120

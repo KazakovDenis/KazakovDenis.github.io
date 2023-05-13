@@ -9,8 +9,8 @@ showtoc: false
 
 ## Salute! 👋
 
-My name is Denis, and I am a backend developer. I write in Python 🐍 and love doing optimization: 
-diving deep into a problem and looking for solutions to it.
+My name is Denis, I lead one of Python :snake: teams at [1cupis](https://1cupis.ru). I love doing optimizations: 
+diving deep into a problem and looking for solutions.
 
 I am very interested in high-load distributed systems. I believe that a long-living project 
 requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
@@ -20,17 +20,35 @@ but I'd gladly change it for something else.
   
 I am self-taught and have no computer science education, but before entering IT, I had some 
 [entrepreneurial and leadership experience](#before-it), so I am well aware of how 
-to prioritize business requirements and perfectionism.
+to prioritize business and technical requirements.
 
 ## Experience
 
-June 2021 - present
+February 2023 - present
+:   **Backend team lead**  
+    [ITASystems](https://itasystems.ru) ([1cupis](https://1cupis.ru) project), Moscow
+
+    > I lead a team of 8 people: devs, QA & system analyst.  
+    > I do:
+    > - assesment of employees performance & providing feedbacks    
+    > - inter-team interaction
+    > - taking part in development of architectural solutions, negotiation of API contracts
+    > - taking part in a recruitment process
+    > - improvement of software development & CI/CD processes
+    > - code review
+    > - coding (when it's possible 😀)
+    > 
+    > Overall, my role is to ensure that my team is working efficiently to achieve our goals.
+
+    `Management` `Python` `Django` `Flask` `PostgreSQL` `MongoDB` `Kafka` `RabbitMQ` `Docker` `Kubernetes` `Jaeger` `Kibana`
+
+June 2021 - February 2023
 :   **Backend engineer**  
     [ITASystems](https://itasystems.ru) ([1cupis](https://1cupis.ru) project), Moscow  
 
-    > I work on an antifraud for the payment system. I mostly do optimization - looking 
-    > for bottlenecks and speeding up the service.   
-    > Traces, metrics, partitioning, indexes, and the like are all related to what I do.
+    > I developed an antifraud for a payment system. In general, I did optimizations - looked 
+    > for bottlenecks and increased service performance.   
+    > Tracing, metrics, partitioning, indexes, and so on - that's what I did.
 
     `Python` `Django` `Flask` `PostgreSQL` `MongoDB` `Kafka` `RabbitMQ` `Docker` `Kubernetes` `Jaeger` `Kibana`
 
