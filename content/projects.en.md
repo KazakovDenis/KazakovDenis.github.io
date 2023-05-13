@@ -7,9 +7,9 @@ tocopen: true
 ---
 
 ## :bulb: Contributions to open source
-I want to be useful to the community and suggest improvements for tools I use myself :blush:.
+I want to be useful for the community and suggest improvements for tools I use myself :blush:.
   
-### kafka-python 
+### Kafka-python 
 
 One project had the need to get rid of Kafka's consumer rebalances in order to provide constant reading from topics. 
 However, none of the popular client libraries (**kafka-python**, **confluent-kafka**, **pykafka**) offered this 
@@ -39,7 +39,9 @@ which the configuration of the client library did not allow. I suggested applyin
 
 ## :open_file_folder: My projects 
 
-### [Relatives](https://relatives.tk) - the service for building family trees 
+### [Relatives](https://relatives.tk)
+
+The service for building family trees.
   
 I have long wanted to build a family tree, but I could not find suitable free tools for this, and those that were 
 found did not meet my requirements. So I decided to reinvent the wheel. And at the same time to use some 
@@ -48,11 +50,25 @@ although they are absolutely irrelevant, and **Django** could fit much better.
   
 `FastAPI` `Ormar` `Asyncio`
 ***
-  
-### Sitemap generation library
 
-The library is published at [PyPI](https://pypi.org/project/dynamic-sitemap/),
-and the documentation is hosted at [readthedocs](https://dynamic-sitemap.readthedocs.io/en/latest/#installation).
+### Aiofutures
+
+This library is to replace ThreadPoolExecutor with asynchronous one and published in [PyPI](https://pypi.org/project/aiofutures/).
+  
+In one of my projects, I faced limitations of the well-known GIL due to extensive HTTP interactions in the application. 
+Timeouts for HTTP requests were not working correctly due to a large number of OS threads and context switching. 
+I took a decision to move all HTTP interactions to a separate thread that would execute requests asynchronously. 
+The number of threads in the application was reduced from 24-25 to 10, timeouts started working correctly, 
+and resource consumption was significantly reduced. This also laid the foundation for rewriting the application 
+in an asynchronous style. 
+  
+`Python` `asyncio`
+***
+  
+### Dynamic-sitemap
+
+This sitemap generation library is published in [PyPI](https://pypi.org/project/dynamic-sitemap/),
+and the documentation is hosted at [readthedocs](https://dynamic-sitemap.readthedocs.io/en/latest/).
   
 Initially, I only needed to add a sitemap to my [Flask blog project](#блог-на-flask). However, after I did not find 
 a more or less attractive alternative, I decided to write my library, and at the same time learn how to publish it 
@@ -60,39 +76,4 @@ to the python package index. Then I decided to use it also to study various tool
 [Sphinx](https://www.sphinx-doc.org/en/master/).
   
 `Python` `Sphinx`
-***
-
-### Flask blog
-
-[The blog](https://github.com/KazakovDenis/flask-blog)  was the first project which helped me in learning Flask and 
-infrastructure to deploy and host Python apps. I still update it occasionally. For about a year and a half, this site 
-worked using this particular engine.
-
-I deployed the blog to a bare metal server on [VDSina.ru](https://vdsina.ru/?partner=vgwnu9nntn) and launched CI / CD 
-using [Travis CI](https://github.com/KazakovDenis/flask-blog/blob/master/.travis.yml) and Docker hub webhooks. 
-In principle, having changed the necessary keys, it can be quickly deployed to an external server even now.
-  
-`Flask` `SQLAlchemy` `Docker` `Nginx` `Travis CI`
-***
-
-## :school_satchel: Test tasks 
-
-Merely I left a couple of tasks here, which turned out well.
-
-### The backend for content storage
-
-In [this task](https://github.com/KazakovDenis/drf-content-storage#content-storage), it was necessary to write an API 
-with which it would be possible to get a list of pages with content and the video, audio, or text content itself.
-  
-`Django REST framework` `Docker`
-***
-  
-### The backend for survey service
-
-The task was to develop [an API](https://github.com/KazakovDenis/drf-survey-service) with which system administrators 
-can log in, create, modify, delete surveys, and users can get a list of active, completed surveys and take part in them. 
-[Here](https://github.com/KazakovDenis/drf-survey-service/blob/main/survey_service/api/v1/docs/docs.md) I have 
-carefully described its user documentation.
-  
-`Django REST framework` `Docker`
 ***

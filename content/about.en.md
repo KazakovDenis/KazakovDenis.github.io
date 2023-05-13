@@ -42,7 +42,7 @@ February 2023 - present
 
     `Management` `Python` `Django` `Flask` `PostgreSQL` `MongoDB` `Kafka` `RabbitMQ` `Docker` `Kubernetes` `Jaeger` `Kibana`
 
-June 2021 - February 2023
+June 2021 - January 2023
 :   **Backend engineer**  
     [ITASystems](https://itasystems.ru) ([1cupis](https://1cupis.ru) project), Moscow  
 
