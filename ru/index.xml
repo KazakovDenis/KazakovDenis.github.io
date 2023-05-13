@@ -5,18 +5,7 @@
     <link>https://kazakov.ru.net/ru/</link>
     <description>Recent content on Денис Казаков</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us,ru-ru</language>
-    <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakov.ru.net/ru/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Преобразование объекта с Camel case ключами в snake case в Django REST framework</title>
-      <link>https://kazakov.ru.net/ru/notes/camel_case_to_snake_case/</link>
-      <pubDate>Fri, 01 Oct 2021 20:00:00 +0300</pubDate>
-      
-      <guid>https://kazakov.ru.net/ru/notes/camel_case_to_snake_case/</guid>
-      <description>Рассмотрим пример ниже:
-from django.utils.functional import cached_property from rest_framework import serializers class KeyMappingSerializerMixin: Meta: type @cached_property def fields(self): # noinspection PyUnresolvedReferences fields = super().fields key_map = getattr(self.Meta, &amp;#39;key_map&amp;#39;, {}) for target, source in key_map.items(): if target != source: fields[target].bind(field_name=source, parent=self) return fields class ExternalServiceCallbackSerializer(KeyMappingSerializerMixin, serializers.ModelSerializer): class Meta: model = ExternalServiceCallback fields = (&amp;#39;timestamp&amp;#39;, &amp;#39;service_name&amp;#39;, &amp;#39;user_data&amp;#39;) key_map = { &amp;#39;timestamp&amp;#39;: &amp;#39;createdAt&amp;#39;, &amp;#39;service_name&amp;#39;: &amp;#39;service&amp;#39;, &amp;#39;user_data&amp;#39;: &amp;#39;userData&amp;#39;, } </description>
-    </item>
-    
+    <language>en-us,ru-ru</language><atom:link href="https://kazakov.ru.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Денис Казаков</title>
       <link>https://kazakov.ru.net/ru/about/</link>
@@ -36,7 +25,7 @@ from django.utils.functional import cached_property from rest_framework import s
       
       <guid>https://kazakov.ru.net/ru/projects/</guid>
       <description>💡 Предложения в Open source Я хочу быть полезным сообществу и предлагать свои улучшения для инструментов, которыми пользуюсь сам 😊.
-kafka-python В одном проекте возникла необходимость избавиться от ребалансов консьюмеров Кафки, чтобы обеспечить постоянное чтение из топиков. Однако, ни одна из популярных клиентских библиотек (kafka-python, confluent-kafka, pykafka) не предлагала такой функциональности, несмотря на то, что она была реализована уже в 2.3.0 версии брокера. Сначала я реализовал эту фичу, доработав KafkaConsumer в репозитории проекта, а затем оформил всё Pull request&amp;lsquo;ом.</description>
+Kafka-python В одном проекте возникла необходимость избавиться от ребалансов консьюмеров Кафки, чтобы обеспечить постоянное чтение из топиков. Однако, ни одна из популярных клиентских библиотек (kafka-python, confluent-kafka, pykafka) не предлагала такой функциональности, несмотря на то, что она была реализована уже в 2.3.0 версии брокера. Сначала я реализовал эту фичу, доработав KafkaConsumer в репозитории проекта, а затем оформил всё Pull request&amp;lsquo;ом.</description>
     </item>
     
   </channel>

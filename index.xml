@@ -5,19 +5,7 @@
     <link>https://kazakov.ru.net/</link>
     <description>Recent content on Denis Kazakov</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us,ru-ru</language>
-    <lastBuildDate>Fri, 01 Oct 2021 20:00:00 +0300</lastBuildDate><atom:link href="https://kazakov.ru.net/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Camel case to snake case serializer in Django REST framework</title>
-      <link>https://kazakov.ru.net/notes/camel_case_to_snake_case/</link>
-      <pubDate>Fri, 01 Oct 2021 20:00:00 +0300</pubDate>
-      
-      <guid>https://kazakov.ru.net/notes/camel_case_to_snake_case/</guid>
-      <description>How to convert a dict with camel case keys into a dict with snake case keys?
-Check out below
-from django.utils.functional import cached_property from rest_framework import serializers class KeyMappingSerializerMixin: Meta: type @cached_property def fields(self): # noinspection PyUnresolvedReferences fields = super().fields key_map = getattr(self.Meta, &amp;#39;key_map&amp;#39;, {}) for target, source in key_map.items(): if target != source: fields[target].bind(field_name=source, parent=self) return fields class ExternalServiceCallbackSerializer(KeyMappingSerializerMixin, serializers.ModelSerializer): class Meta: model = ExternalServiceCallback fields = (&amp;#39;timestamp&amp;#39;, &amp;#39;service_name&amp;#39;, &amp;#39;user_data&amp;#39;) key_map = { &amp;#39;timestamp&amp;#39;: &amp;#39;createdAt&amp;#39;, &amp;#39;service_name&amp;#39;: &amp;#39;service&amp;#39;, &amp;#39;user_data&amp;#39;: &amp;#39;userData&amp;#39;, } </description>
-    </item>
-    
+    <language>en-us,ru-ru</language><atom:link href="https://kazakov.ru.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Denis Kazakov</title>
       <link>https://kazakov.ru.net/about/</link>
@@ -35,8 +23,8 @@ Love open source and well-expertised in Django, but I&amp;rsquo;d gladly change 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kazakov.ru.net/projects/</guid>
-      <description>💡 Contributions to open source I want to be useful to the community and suggest improvements for tools I use myself 😊.
-kafka-python One project had the need to get rid of Kafka&amp;rsquo;s consumer rebalances in order to provide constant reading from topics. However, none of the popular client libraries (kafka-python, confluent-kafka, pykafka) offered this functionality, despite the fact that it was already implemented in the 2.3.0 version of the broker.</description>
+      <description>💡 Contributions to open source I want to be useful for the community and suggest improvements for tools I use myself 😊.
+Kafka-python One project had the need to get rid of Kafka&amp;rsquo;s consumer rebalances in order to provide constant reading from topics. However, none of the popular client libraries (kafka-python, confluent-kafka, pykafka) offered this functionality, despite the fact that it was already implemented in the 2.3.0 version of the broker.</description>
     </item>
     
     

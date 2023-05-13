@@ -2,84 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kazakov.ru.net/notes/camel_case_to_snake_case/</loc>
-    <lastmod>2021-10-01T20:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/notes/camel_case_to_snake_case/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/notes/camel_case_to_snake_case/"
-                />
-  </url><url>
-    <loc>https://kazakov.ru.net/</loc>
-    <lastmod>2021-10-01T20:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/"
-                />
-  </url><url>
-    <loc>https://kazakov.ru.net/tags/django/</loc>
-    <lastmod>2021-10-01T20:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/tags/django/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/tags/django/"
-                />
-  </url><url>
-    <loc>https://kazakov.ru.net/tags/drf/</loc>
-    <lastmod>2021-10-01T20:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/tags/drf/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/tags/drf/"
-                />
-  </url><url>
-    <loc>https://kazakov.ru.net/notes/</loc>
-    <lastmod>2021-10-01T20:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/notes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/notes/"
-                />
-  </url><url>
-    <loc>https://kazakov.ru.net/tags/</loc>
-    <lastmod>2021-10-01T20:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/tags/"
-                />
-  </url><url>
     <loc>https://kazakov.ru.net/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -90,6 +12,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kazakov.ru.net/categories/"
+                />
+  </url><url>
+    <loc>https://kazakov.ru.net/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://kazakov.ru.net/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kazakov.ru.net/"
                 />
   </url><url>
     <loc>https://kazakov.ru.net/about/</loc>
@@ -126,6 +60,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kazakov.ru.net/search/"
+                />
+  </url><url>
+    <loc>https://kazakov.ru.net/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://kazakov.ru.net/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kazakov.ru.net/tags/"
                 />
   </url>
 </urlset>
