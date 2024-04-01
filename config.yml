@@ -20,7 +20,7 @@ minify:
 params:
   env: production
   title: "Denis Kazakov"
-  description: "Denis Kazakov - backend engineer"
+  description: "Denis Kazakov - senior backend engineer"
   keywords: [Blog, Portfolio, PaperMod, Hugo]
   author: ["Denis Kazakov"]
 #  images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -57,8 +57,10 @@ params:
       url: "https://www.linkedin.com/in/denis-kazakov/"
     - name: github
       url: "https://github.com/KazakovDenis"
+    - name: habr
+      url: "https://habr.com/ru/users/KazakovDenis/publications/articles/"
     - name: stackoverflow
-      url: "https://stackoverflow.com/story/denis-kazakov"
+      url: "https://stackoverflow.com/users/12111071/praetorian"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -112,7 +114,7 @@ languages:
     profileMode:
       enabled: true # needs to be explicitly set
       title: "Denis Kazakov"
-      subtitle: "Backend team lead @ [ITASystems](https://itasystems.ru)"
+      subtitle: "Senior backend engineer @ [Avito](https://www.avito.ru/company)"
       imageUrl: "/img/python.png"
       imageWidth: 120
       imageHeight: 120
@@ -147,7 +149,7 @@ languages:
     profileMode:
       enabled: true
       title: "Денис Казаков"
-      subtitle: "Руководитель группы разработчиков @ [ИТИС (Единый ЦУПИС)](https://itasystems.ru)"
+      subtitle: "Старший backend-разработчик @ [Авито](https://www.avito.ru/company)"
       imageUrl: "/img/python.png"
       imageWidth: 120
       imageHeight: 120

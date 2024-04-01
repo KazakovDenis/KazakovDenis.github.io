@@ -9,27 +9,34 @@ showtoc: false
 
 ## Salute! 👋
 
-My name is Denis, I lead one of Python :snake: teams at [1cupis](https://1cupis.ru). I love doing optimizations: 
+My name is Denis, I build backends in `Python` and `Go`. I love doing optimizations: 
 diving deep into a problem and looking for solutions.
 
 I am very interested in high-load distributed systems. I believe that a long-living project 
 requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
   
-Love [open source](/projects/#-contributions-to-open-source) and well-expertised in Django, 
-but I'd gladly change it for something else.   
+Love [open source](/projects/#-contributions-to-open-source) and studying programming languages development.   
   
 I am self-taught and have no computer science education, but before entering IT, I had some 
 [entrepreneurial and leadership experience](#before-it), so I am well aware of how 
-to prioritize business and technical requirements.
+to prioritize business requirements and a technical debt.
 
 ## Experience
 
-February 2023 - present
+March 2024 - present
+:   **Senior backend engineer (Python, Go)**  
+    [Avito](https://avito.ru/company), Remote
+
+    > I develop antifraud microservices
+
+    `Scrum` `Python` `Go` `PostgreSQL` `MongoDB` `Redis` `Kafka` `Pulsar` `Kubernetes`
+
+February 2023 - March 2024
 :   **Backend team lead**  
     [ITASystems](https://itasystems.ru) ([1cupis](https://1cupis.ru) project), Moscow
 
     > I lead a team of 8 people: devs, QA & system analyst.  
-    > I do:
+    > I did:
     > - assesment of employees performance & providing feedbacks    
     > - inter-team interaction
     > - taking part in development of architectural solutions, negotiation of API contracts
@@ -38,9 +45,9 @@ February 2023 - present
     > - code review
     > - coding (when it's possible 😀)
     > 
-    > Overall, my role is to ensure that my team is working efficiently to achieve our goals.
+    > Overall, my role was to ensure that my team is working efficiently to achieve our goals.
 
-    `Management` `Python` `Django` `Flask` `PostgreSQL` `MongoDB` `Kafka` `RabbitMQ` `Docker` `Kubernetes` `Jaeger` `Kibana`
+    `Management` `Kanban` `Python` `Django` `Flask` `PostgreSQL` `MongoDB` `Kafka` `RabbitMQ` `Docker` `Kubernetes`
 
 June 2021 - January 2023
 :   **Backend engineer**  
