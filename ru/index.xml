@@ -2,31 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Денис Казаков</title>
-    <link>https://kazakov.ru.net/ru/</link>
+    <link>https://deniskazakov.com/ru/</link>
     <description>Recent content on Денис Казаков</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language><atom:link href="https://kazakov.ru.net/ru/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru</language><atom:link href="https://deniskazakov.com/ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Денис Казаков</title>
-      <link>https://kazakov.ru.net/ru/about/</link>
+      <link>https://deniskazakov.com/ru/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kazakov.ru.net/ru/about/</guid>
-      <description>Привет! &amp;#x1f44b; Меня зовут Денис, я разрабатываю бекенды на Python и Go. Я обожаю заниматься оптимизацией: глубоко погружаться в проблему и искать для неё решения.
-Мне очень интересны высоконагруженные распределённые системы. Считаю, что для долгоживущего проекта требуются хорошее покрытие тестами и, пусть некрасивый, но строгий codestyle. А MVP есть MVP.
-Люблю опенсорс и разбираться в устройстве языков программирования.
-Я не программист по образованию, но до IT у меня был некоторый предпринимательский и руководящий опыт, поэтому я хорошо понимаю, как расставить приоритеты между потребностями бизнеса и техдолгом.</description>
-    </item>
-    
-    
-    <item>
-      <title>Проекты</title>
-      <link>https://kazakov.ru.net/ru/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kazakov.ru.net/ru/projects/</guid>
-      <description>&amp;#x1f4a1; Предложения в Open source Я хочу быть полезным сообществу и предлагать свои улучшения для инструментов, которыми пользуюсь сам &amp;#x1f60a;.
-Kafka-python В одном проекте возникла необходимость избавиться от ребалансов консьюмеров Кафки, чтобы обеспечить постоянное чтение из топиков. Однако, ни одна из популярных клиентских библиотек (kafka-python, confluent-kafka, pykafka) не предлагала такой функциональности, несмотря на то, что она была реализована уже в 2.3.0 версии брокера. Сначала я реализовал эту фичу, доработав KafkaConsumer в репозитории проекта, а затем оформил всё Pull request&amp;lsquo;ом.</description>
+      <guid>https://deniskazakov.com/ru/about/</guid>
+      <description>Backend-разработчик: распределённые системы, производительность и надёжная разработка.</description>
     </item>
     
   </channel>

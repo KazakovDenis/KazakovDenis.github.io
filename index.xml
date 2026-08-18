@@ -2,32 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Denis Kazakov</title>
-    <link>https://kazakov.ru.net/</link>
+    <link>https://deniskazakov.com/</link>
     <description>Recent content on Denis Kazakov</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://kazakov.ru.net/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://deniskazakov.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Denis Kazakov</title>
-      <link>https://kazakov.ru.net/about/</link>
+      <link>https://deniskazakov.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kazakov.ru.net/about/</guid>
-      <description>Salute! 👋 My name is Denis, I build backends in Python and Go. I love doing optimizations: diving deep into a problem and looking for solutions.
-I am very interested in high-load distributed systems. I believe that a long-living project requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
-Love open source and studying programming languages development.
-I am self-taught and have no computer science education, but before entering IT, I had some entrepreneurial and leadership experience, so I am well aware of how to prioritize business requirements and a technical debt.</description>
+      <guid>https://deniskazakov.com/about/</guid>
+      <description>Backend engineer focused on distributed systems, performance, and reliable software.</description>
     </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://kazakov.ru.net/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kazakov.ru.net/projects/</guid>
-      <description>&amp;#x1f4a1; Contributions to open source I want to be useful for the community and suggest improvements for tools I use myself &amp;#x1f60a;.
-Kafka-python One project had the need to get rid of Kafka&amp;rsquo;s consumer rebalances in order to provide constant reading from topics. However, none of the popular client libraries (kafka-python, confluent-kafka, pykafka) offered this functionality, despite the fact that it was already implemented in the 2.3.0 version of the broker.</description>
-    </item>
-    
     
   </channel>
 </rss>

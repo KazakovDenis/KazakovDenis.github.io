@@ -2,76 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kazakov.ru.net/ru/categories/</loc>
+    <loc>https://deniskazakov.com/ru/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakov.ru.net/categories/"
+                href="https://deniskazakov.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakov.ru.net/ru/categories/"
+                href="https://deniskazakov.com/ru/categories/"
                 />
   </url><url>
-    <loc>https://kazakov.ru.net/ru/tags/</loc>
+    <loc>https://deniskazakov.com/ru/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakov.ru.net/tags/"
+                href="https://deniskazakov.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakov.ru.net/ru/tags/"
+                href="https://deniskazakov.com/ru/tags/"
                 />
   </url><url>
-    <loc>https://kazakov.ru.net/ru/</loc>
+    <loc>https://deniskazakov.com/ru/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakov.ru.net/"
+                href="https://deniskazakov.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakov.ru.net/ru/"
+                href="https://deniskazakov.com/ru/"
                 />
   </url><url>
-    <loc>https://kazakov.ru.net/ru/about/</loc>
+    <loc>https://deniskazakov.com/ru/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakov.ru.net/about/"
+                href="https://deniskazakov.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakov.ru.net/ru/about/"
+                href="https://deniskazakov.com/ru/about/"
                 />
   </url><url>
-    <loc>https://kazakov.ru.net/ru/search/</loc>
+    <loc>https://deniskazakov.com/ru/posts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kazakov.ru.net/search/"
+                href="https://deniskazakov.com/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://kazakov.ru.net/ru/search/"
-                />
-  </url><url>
-    <loc>https://kazakov.ru.net/ru/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kazakov.ru.net/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://kazakov.ru.net/ru/projects/"
+                href="https://deniskazakov.com/ru/posts/"
                 />
   </url>
 </urlset>
