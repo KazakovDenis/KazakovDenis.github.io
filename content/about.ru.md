@@ -1,5 +1,6 @@
 ---
 title: "Денис Казаков"
+description: "Backend-разработчик: распределённые системы, производительность и надёжная разработка."
 draft: false
 comments: false
 author: Me

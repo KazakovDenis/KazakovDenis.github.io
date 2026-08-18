@@ -1,5 +1,6 @@
 ---
 title: "Denis Kazakov"
+description: "Backend engineer focused on distributed systems, performance, and reliable software."
 draft: false
 comments: false
 author: Me

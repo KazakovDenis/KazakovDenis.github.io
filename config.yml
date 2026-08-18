@@ -1,4 +1,4 @@
-baseURL: "https://kazakov.ru.net/"
+baseURL: "https://deniskazakov.com/"
 languageCode: "en-us,ru-ru"
 title: "Denis Kazakov"
 theme: "PaperMod"
@@ -20,9 +20,10 @@ minify:
 params:
   env: production
   title: "Denis Kazakov"
-  description: "Denis Kazakov - senior backend engineer"
-  keywords: [Blog, Portfolio, PaperMod, Hugo]
+  description: "Denis Kazakov — backend engineer writing about systems, engineering, and technology."
+  keywords: [Denis Kazakov, backend engineering, distributed systems, Python, Go, blog]
   author: ["Denis Kazakov"]
+  mainSections: [posts]
 #  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -93,64 +94,37 @@ languages:
   en:
     languageName: ":gb:"
     weight: 1
-    label:
-      text: "Home"
-#      icon: /apple-touch-icon.png
-#      iconHeight: 35
+    params:
+      label:
+        text: "Home"
+      homeInfoParams:
+        Title: "Denis Kazakov"
+        Content: "Backend engineer. I write about distributed systems, performance, and the craft of building software."
     menu:
       main:
-#        - name: Notes
-#          url: notes/
-#          weight: 10
-        - name: Projects
-          url: projects/
-          weight: 20
+        - name: Posts
+          url: posts/
+          weight: 10
         - name: About
           url: about/
-          weight: 30
-#        - name: Search
-#          url: search/
-#          weight: 40
-    profileMode:
-      enabled: true # needs to be explicitly set
-      title: "Denis Kazakov"
-      subtitle: "Senior backend engineer @ [Avito](https://www.avito.ru/company)"
-      imageUrl: "/img/python.png"
-      imageWidth: 120
-      imageHeight: 120
-      imageTitle: "Python"
-    #    buttons:
-    #      - name: Notes
-    #        url: notes
+          weight: 20
 
   ru:
     languageName: ":ru:"
-    languageAltTitle: Русский
     weight: 2
     title: "Денис Казаков"
-    label:
-      text: "Главная"
-#      icon: /apple-touch-icon.png
-#      iconHeight: 35
+    params:
+      languageAltTitle: Русский
+      label:
+        text: "Главная"
+      homeInfoParams:
+        Title: "Денис Казаков"
+        Content: "Backend-разработчик. Пишу о распределённых системах, производительности и инженерном подходе к разработке."
     menu:
       main:
-#        - name: Заметки
-#          url: notes/
-#          weight: 10
-        - name: Проекты
-          url: projects/
-          weight: 20
+        - name: Публикации
+          url: posts/
+          weight: 10
         - name: Обо мне
           url: about/
-          weight: 30
-#        - name: Поиск
-#          url: search/
-#          weight: 40
-    profileMode:
-      enabled: true
-      title: "Денис Казаков"
-      subtitle: "Старший backend-разработчик @ [Авито](https://www.avito.ru/company)"
-      imageUrl: "/img/python.png"
-      imageWidth: 120
-      imageHeight: 120
-      imageTitle: "Python"
+          weight: 20
