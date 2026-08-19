@@ -1,0 +1,11 @@
+{{- with $.Site.Params.homeInfoParams }}
+<div class="profile home-info">
+    <div class="profile_inner">
+        <h1>{{ .Title | markdownify }}</h1>
+        <p class="home-info-content">{{ .Content | markdownify }}</p>
+        <div class="home-info-social">
+            {{ partial "social_icons.html" $.Site.Params.socialIcons }}
+        </div>
+    </div>
+</div>
+{{- end -}}

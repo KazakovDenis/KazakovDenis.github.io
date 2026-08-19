@@ -43,6 +43,9 @@ params:
   showtoc: false
   tocopen: false
 
+  social:
+    facebook_admin: ""
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -100,14 +103,14 @@ languages:
       homeInfoParams:
         Title: "Denis Kazakov"
         Content: "Backend engineer. I write about distributed systems, performance, and building software. I also share my experience and insights on this personal site."
-menu:
-  main:
-    - name: About
-      url: about/
-      weight: 20
-    - name: Habr
-      url: https://habr.com/ru/users/KazakovDenis/publications/articles/
-      weight: 30
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 20
+        - name: Habr
+          url: https://habr.com/ru/users/KazakovDenis/publications/articles/
+          weight: 30
 
   ru:
     languageName: ":ru:"
@@ -120,11 +123,11 @@ menu:
       homeInfoParams:
         Title: "Денис Казаков"
         Content: "Backend-разработчик. Пишу о распределённых системах, производительности и инженерном подходе к разработке. Также делюсь опытом и мыслями на этом сайте."
-menu:
-  main:
-    - name: Обо мне
-      url: about/
-      weight: 20
-    - name: Хабр
-      url: https://habr.com/ru/users/KazakovDenis/publications/articles/
-      weight: 30
+    menu:
+      main:
+        - name: Обо мне
+          url: about/
+          weight: 20
+        - name: Хабр
+          url: https://habr.com/ru/users/KazakovDenis/publications/articles/
+          weight: 30
