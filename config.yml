@@ -23,7 +23,7 @@ params:
   description: "Denis Kazakov — backend engineer writing about systems, engineering, and technology."
   keywords: [Denis Kazakov, backend engineering, distributed systems, Python, Go, blog]
   author: ["Denis Kazakov"]
-  mainSections: [posts]
+  mainSections: []
 #  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -99,15 +99,15 @@ languages:
         text: "Home"
       homeInfoParams:
         Title: "Denis Kazakov"
-        Content: "Backend engineer. I write about distributed systems, performance, and the craft of building software."
-    menu:
-      main:
-        - name: Posts
-          url: posts/
-          weight: 10
-        - name: About
-          url: about/
-          weight: 20
+        Content: "Backend engineer. I write about distributed systems, performance, and building software. I also share my experience and insights on this personal site."
+menu:
+  main:
+    - name: About
+      url: about/
+      weight: 20
+    - name: Habr
+      url: https://habr.com/ru/users/KazakovDenis/publications/articles/
+      weight: 30
 
   ru:
     languageName: ":ru:"
@@ -119,12 +119,12 @@ languages:
         text: "Главная"
       homeInfoParams:
         Title: "Денис Казаков"
-        Content: "Backend-разработчик. Пишу о распределённых системах, производительности и инженерном подходе к разработке."
-    menu:
-      main:
-        - name: Публикации
-          url: posts/
-          weight: 10
-        - name: Обо мне
-          url: about/
-          weight: 20
+        Content: "Backend-разработчик. Пишу о распределённых системах, производительности и инженерном подходе к разработке. Также делюсь опытом и мыслями на этом сайте."
+menu:
+  main:
+    - name: Обо мне
+      url: about/
+      weight: 20
+    - name: Хабр
+      url: https://habr.com/ru/users/KazakovDenis/publications/articles/
+      weight: 30
