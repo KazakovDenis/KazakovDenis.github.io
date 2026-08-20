@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{{- /* Copy of the theme's baseof.html; only the `dir` attribute differs.
+       Upstream uses .Language.LanguageDirection, deprecated in Hugo v0.158.0
+       in favour of .Language.Direction. */ -}}
+<html lang="{{ .Site.Language }}" dir="{{ .Language.Direction | default "auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq $.Site.Params.defaultTheme `dark` -}}
+{{- print " dark" }}
+{{- end -}}
+" id="top">
+    {{- partialCached "header.html" . .Page -}}
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+</body>
+
+</html>

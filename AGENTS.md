@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 This file provides guidance to agentic coding tools (e.g. Claude Code, Codex, OpenCode, etc) when working with code in this repository.
 
@@ -103,6 +103,15 @@ lets GitHub run Jekyll over the output. README.md documents the DNS/A-record set
 
 `bae7ca5` ("make deniskazakov.com the publication site") refocused the site on writing: it deleted
 `content/projects.{en,ru}.md` and `content/search.{en,ru}.md` and added `content/posts/`. Don't
-reintroduce those pages as a "fix" for missing content — their removal was deliberate. The site also
-emits deprecation warnings for `languages.<lang>.languageName` in `config.yml` (Hugo ≥ 0.158 wants
-`label` instead); harmless today, but that key will eventually be removed.
+reintroduce those pages as a "fix" for missing content — their removal was deliberate.
+
+The Hugo v0.158 deprecations are now cleared — the build is warning-free. What changed, so it isn't
+undone by accident:
+- `languages.<lang>.languageName` → `label`; `.Language.LanguageName` → `.Language.Label` in
+  `layouts/partials/header.html`
+- the top-level `languageCode: "en-us,ru-ru"` was **invalid** (one comma-joined string, not a
+  language tag) and leaked verbatim into `<html lang>`, RSS `<language>`, and sitemap `hreflang`.
+  Replaced by a per-language `locale` (`en-US` / `ru-RU`), which is where Hugo expects it;
+  `.Site.LanguageCode` → `.Site.Language.Locale` in `layouts/_default/rss.xml`
+- `layouts/_default/baseof.html` is a new override existing **only** to swap the deprecated
+  `.Language.LanguageDirection` for `.Language.Direction`. Keep it in sync when bumping the theme.

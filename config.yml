@@ -1,5 +1,4 @@
 baseURL: "https://deniskazakov.com/"
-languageCode: "en-us,ru-ru"
 title: "Denis Kazakov"
 theme: "PaperMod"
 paginate: 10
@@ -93,7 +92,8 @@ outputs:
 
 languages:
   en:
-    languageName: ":gb:"
+    label: ":gb:"
+    locale: "en-US"
     weight: 1
     params:
       label:
@@ -111,7 +111,8 @@ languages:
           weight: 30
 
   ru:
-    languageName: ":ru:"
+    label: ":ru:"
+    locale: "ru-RU"
     weight: 2
     title: "Денис Казаков"
     params:
