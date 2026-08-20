@@ -2,6 +2,21 @@
 
 This file provides guidance to agentic coding tools (e.g. Claude Code, Codex, OpenCode, etc) when working with code in this repository.
 
+## Committing is the owner's job — never the agent's
+
+**Do not run `git commit`, `git push`, `git tag`, or any other history-writing or remote-writing git
+command.** Denis commits personally; every commit in this repo must be authored by a human. This
+holds even when the change is finished, verified, and obviously correct, and even when the task was
+phrased as "fix it" or approved with a plain "yes" — approval of the *change* is never approval to
+commit it.
+
+Leave finished work in the working tree, say what you changed, and stop there. If a change can only
+be validated by CI (as with `.github/workflows/`), say so and let Denis push it — do not push to
+find out.
+
+Corollary: never force-push, rewrite history, or move a remote branch to undo your own commit.
+Cleaning up a commit you should not have made compounds the mistake. Ask instead.
+
 ## Overview
 
 Hugo static site for deniskazakov.com — a personal site and the primary publication source for
