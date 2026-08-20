@@ -1,0 +1,19 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+
+{{- /* safeHTML: delimit returns a plain string, so Hugo escapes the "&" and the
+       separator renders as a literal "&nbsp;·&nbsp;" instead of a spaced dot. */}}
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

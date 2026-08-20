@@ -59,12 +59,10 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/denis-kazakov/"
+    - name: substack
+      url: "https://substack.com/@deniskazakov2/notes"
     - name: github
       url: "https://github.com/KazakovDenis"
-    - name: habr
-      url: "https://habr.com/ru/users/KazakovDenis/publications/articles/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/12111071/praetorian"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -102,7 +100,7 @@ languages:
         text: "Home"
       homeInfoParams:
         Title: "Denis Kazakov"
-        Content: "Backend engineer. I write about distributed systems, performance, and building software. I also share my experience and insights on this personal site."
+        Content: "Engineering manager with a backend background. I write about distributed systems, performance, and building software — and about leading engineering teams: processes, people management, goal setting, and motivation."
     menu:
       main:
         - name: About
@@ -122,7 +120,7 @@ languages:
         text: "Главная"
       homeInfoParams:
         Title: "Денис Казаков"
-        Content: "Backend-разработчик. Пишу о распределённых системах, производительности и инженерном подходе к разработке. Также делюсь опытом и мыслями на этом сайте."
+        Content: "Engineering Manager с бэкграундом в backend-разработке. Пишу о распределённых системах, производительности и инженерном подходе к разработке — а также об управлении командой инженеров: процессах, people management, целеполагании и мотивации."
     menu:
       main:
         - name: Обо мне

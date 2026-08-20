@@ -30,7 +30,16 @@ lookup order prefers project `layouts/` over the theme's.
 
 **Existing overrides in `layouts/`** (each is a deliberate copy-and-modify of a theme file):
 - `partials/home_info.html` — adds social icons to the homepage intro block
+- `partials/header.html` — adds `target="_blank" rel="noopener noreferrer"` to nav entries whose
+  URL has a scheme, so off-site links (Habr) open in a new tab. Scheme-based rather than
+  name-based, so new external menu items need no template change
 - `partials/comments.html` — Disqus embed (`kazakov-ru-net` shortname)
+- `partials/svg.html` — full copy of the theme's icon set with a `substack` branch added before
+  the fallback. `socialIcons` entries whose `name` has no branch here silently render a generic
+  chain-link icon, so adding a social link means adding its mark here too
+- `partials/post_meta.html` — adds `| safeHTML` to the `delimit` separator. Upstream passes
+  `"&nbsp;·&nbsp;"` through `delimit`, which returns a plain string, so Hugo escapes the `&` and
+  the separator shows up as literal `&nbsp;·&nbsp;` text in the meta line
 - `partials/templates/opengraph.html`, `twitter_cards.html` — copies that read `site.Params.social.*`
   instead of the removed `.Site.Social` API; they exist only to keep newer Hugo versions from erroring
 - `_internal/google_analytics.html` — overrides Hugo's built-in template to inject **both** GA4 and
