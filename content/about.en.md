@@ -16,7 +16,7 @@ diving deep into a problem and looking for solutions.
 I am very interested in high-load distributed systems. I believe that a long-living project
 requires good test coverage and possibly ugly but strict code style. And MVP is MVP.
 
-Love [open source](/projects/#-contributions-to-open-source) and studying programming languages development.
+Love [open source](https://github.com/KazakovDenis) and studying programming languages development.
 
 I am self-taught and have no computer science education, but before entering IT, I had some
 entrepreneurial and leadership experience, so I am well aware of how to prioritize business requirements
