@@ -5,60 +5,60 @@
     <loc>https://deniskazakov.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us,ru-ru"
+                hreflang="en-US"
                 href="https://deniskazakov.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
+                hreflang="ru-RU"
                 href="https://deniskazakov.com/ru/categories/"
                 />
   </url><url>
     <loc>https://deniskazakov.com/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us,ru-ru"
+                hreflang="en-US"
                 href="https://deniskazakov.com/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
+                hreflang="ru-RU"
                 href="https://deniskazakov.com/ru/"
                 />
   </url><url>
     <loc>https://deniskazakov.com/about/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us,ru-ru"
+                hreflang="en-US"
                 href="https://deniskazakov.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
+                hreflang="ru-RU"
                 href="https://deniskazakov.com/ru/about/"
                 />
   </url><url>
     <loc>https://deniskazakov.com/posts/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us,ru-ru"
+                hreflang="en-US"
                 href="https://deniskazakov.com/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
+                hreflang="ru-RU"
                 href="https://deniskazakov.com/ru/posts/"
                 />
   </url><url>
     <loc>https://deniskazakov.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us,ru-ru"
+                hreflang="en-US"
                 href="https://deniskazakov.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
+                hreflang="ru-RU"
                 href="https://deniskazakov.com/ru/tags/"
                 />
   </url>
