@@ -5,14 +5,14 @@
     <link>https://deniskazakov.com/</link>
     <description>Recent content on Denis Kazakov</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://deniskazakov.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us,ru-ru</language><atom:link href="https://deniskazakov.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Denis Kazakov</title>
       <link>https://deniskazakov.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://deniskazakov.com/about/</guid>
-      <description>Backend engineer focused on distributed systems, performance, and reliable software.</description>
+      <description>Engineering Manager and backend engineer writing about distributed systems, performance, reliable software, and leading engineering teams — processes, people management, goal setting, and motivation.</description>
     </item>
     
   </channel>
