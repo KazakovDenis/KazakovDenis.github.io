@@ -1,6 +1,6 @@
 ---
 title: "AI Etiquette, or Sent using @AI"
-date: 2026-10-11T22:47:07+04:00
+date: 2026-10-18T22:47:07+04:00
 draft: false
 description: ""
 tags: ["AI", "Communication"]

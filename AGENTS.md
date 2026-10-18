@@ -43,41 +43,42 @@ under `themes/` — a fresh clone or CI checkout will not have those changes. To
 behavior, copy the template into the matching path under `layouts/` and edit the copy; Hugo's
 lookup order prefers project `layouts/` over the theme's.
 
-**Existing overrides in `layouts/`** (each is a deliberate copy-and-modify of a theme file):
-- `partials/home_info.html` — adds social icons to the homepage intro block
-- `partials/header.html` — adds `target="_blank" rel="noopener noreferrer"` to nav entries whose
+**Existing layout overrides** (each is a deliberate copy-and-modify of a theme file):
+- `layouts/partials/home_info.html` — adds social icons to the homepage intro block
+- `layouts/partials/header.html` — adds `target="_blank" rel="noopener noreferrer"` to nav entries whose
   URL has a scheme, so off-site links (Habr) open in a new tab. Scheme-based rather than
   name-based, so new external menu items need no template change
-- `partials/comments.html` — Disqus embed (`kazakov-ru-net` shortname)
-- `partials/svg.html` — full copy of the theme's icon set with a `substack` branch added before
+- `layouts/partials/comments.html` — Disqus embed (`kazakov-ru-net` shortname)
+- `layouts/partials/svg.html` — full copy of the theme's icon set with a `substack` branch added before
   the fallback. `socialIcons` entries whose `name` has no branch here silently render a generic
   chain-link icon, so adding a social link means adding its mark here too
-- `partials/post_meta.html` — adds `| safeHTML` to the `delimit` separator. Upstream passes
+- `layouts/partials/post_meta.html` — adds `| safeHTML` to the `delimit` separator. Upstream passes
   `"&nbsp;·&nbsp;"` through `delimit`, which returns a plain string, so Hugo escapes the `&` and
   the separator shows up as literal `&nbsp;·&nbsp;` text in the meta line
-- `partials/templates/opengraph.html`, `twitter_cards.html` — copies that read `site.Params.social.*`
-  instead of the removed `.Site.Social` API; they exist only to keep newer Hugo versions from erroring
-- `_internal/google_analytics.html` — overrides Hugo's built-in template to inject **both** GA4 and
+- `layouts/partials/templates/opengraph.html`, `layouts/partials/templates/twitter_cards.html` — copies that read
+  `site.Params.social.*` instead of the removed Site Social API; they exist only to keep newer Hugo versions from erroring
+- `layouts/_internal/google_analytics.html` — overrides Hugo's built-in template to inject **both** GA4 and
   Yandex.Metrika. Yandex.Metrika lives here, not in config, because this is the only hook Hugo calls
   for analytics
-- `_internal/google_news.html` — intentionally empty, suppresses the built-in template
-- `_default/rss.xml` — RSS copy updated for the `site.Params.author` map/slice form
+- `layouts/_internal/google_news.html` — intentionally empty, suppresses the built-in template
+- `layouts/_default/rss.xml` — RSS copy updated for the `site.Params.author` map/slice form
 
 `assets/css/extended/custom.css` is PaperMod's supported extension point (`params.assets.extended:
-true` in config.yml) — put CSS there, never in the theme's assets.
+true` in config.yml). Put project CSS there and keep theme assets untouched.
 
-**Multilingual content.** Language is encoded in the filename suffix, not in directories:
-`content/about.en.md` / `content/about.ru.md`. English is `weight: 1` and served at the root; Russian
-is `weight: 2` and served under `/ru/`. Every content page and menu entry needs an `.en` and a `.ru`
-counterpart, and internal links must be language-aware (`/projects/` in English content,
-`/ru/projects/` in Russian). Menus and homepage intro text are per-language under
-`languages.<lang>.menu` / `languages.<lang>.params.homeInfoParams` in `config.yml`.
+**Multilingual content.** Language is encoded in the filename suffix, not in directories, as in
+`content/about.en.md` and `content/about.ru.md`. English is `weight: 1` and served at the root;
+Russian is `weight: 2` and served under `/ru/`. Every content page and menu entry needs English and
+Russian counterparts, and internal links must be language-aware (`/projects/` in English content,
+`/ru/projects/` in Russian). Menus and homepage intro text are configured separately for each
+language in `config.yml`.
 
-**`mainSections: []` in config.yml intentionally hides the posts list from the homepage.** The
-`content/posts/` section currently holds only `_index.*` files with no posts. Restore the homepage
-feed by setting `mainSections: ["posts"]` once posts exist.
+**`mainSections: ["posts"]` in `config.yml` shows posts on the homepage.** Keep this enabled while
+published posts live in `content/posts/`; their cards are the homepage links to those articles.
 
 ## Publishing conventions
+
+Before editing or reviewing copy in `content/posts/`, follow the [article editing rules](.agents/rules/article-editing.md).
 
 Publish originals here first. Hugo derives the canonical URL from `baseURL`, so a page published
 here declares deniskazakov.com as its canonical source; when reposting to Substack, LinkedIn, Habr,
@@ -93,25 +94,25 @@ posts — it is the minimal set plus the canonical-URL reminder.
 
 `.github/workflows/gh-pages.yml` builds on every push and PR, and deploys `./public` to the
 `gh-pages` branch only from `master`. The checkout uses `submodules: true` and `fetch-depth: 0`
-(needed for `.GitInfo`/`.Lastmod`).
+(needed for GitInfo and Lastmod).
 
-`public/` is gitignored — never commit build output. `static/CNAME` (`deniskazakov.com`) and
+`public/` is gitignored — never commit build output. `static/CNAME` (deniskazakov.com) and
 `static/.nojekyll` are published as-is and must stay; deleting either breaks the custom domain or
 lets GitHub run Jekyll over the output. README.md documents the DNS/A-record setup.
 
 ## History worth knowing
 
 `bae7ca5` ("make deniskazakov.com the publication site") refocused the site on writing: it deleted
-`content/projects.{en,ru}.md` and `content/search.{en,ru}.md` and added `content/posts/`. Don't
+the old English and Russian Projects and Search pages and added `content/posts/`. Don't
 reintroduce those pages as a "fix" for missing content — their removal was deliberate.
 
 The Hugo v0.158 deprecations are now cleared — the build is warning-free. What changed, so it isn't
 undone by accident:
-- `languages.<lang>.languageName` → `label`; `.Language.LanguageName` → `.Language.Label` in
+- languageName → label; LanguageName → Label in
   `layouts/partials/header.html`
 - the top-level `languageCode: "en-us,ru-ru"` was **invalid** (one comma-joined string, not a
   language tag) and leaked verbatim into `<html lang>`, RSS `<language>`, and sitemap `hreflang`.
   Replaced by a per-language `locale` (`en-US` / `ru-RU`), which is where Hugo expects it;
-  `.Site.LanguageCode` → `.Site.Language.Locale` in `layouts/_default/rss.xml`
+  Site LanguageCode → Site Language Locale in `layouts/_default/rss.xml`
 - `layouts/_default/baseof.html` is a new override existing **only** to swap the deprecated
-  `.Language.LanguageDirection` for `.Language.Direction`. Keep it in sync when bumping the theme.
+  LanguageDirection for Direction. Keep it in sync when bumping the theme.
