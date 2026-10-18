@@ -60,10 +60,10 @@ params:
       url: "https://www.linkedin.com/in/denis-kazakov/"
     - name: substack
       url: "https://substack.com/@deniskazakov2/notes"
-    - name: github
-      url: "https://github.com/KazakovDenis"
     - name: habr
       url: "https://habr.com/ru/users/KazakovDenis/publications/articles/"
+    - name: github
+      url: "https://github.com/KazakovDenis"
 
   cover:
     hidden: false

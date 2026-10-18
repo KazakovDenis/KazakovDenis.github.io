@@ -27,7 +27,7 @@ Pages.
 
 ```bash
 make install    # apt install hugo + init/update the PaperMod submodule (Debian/Ubuntu; on macOS use `brew install hugo`)
-make run        # hugo server -D — local dev server, drafts included
+make run        # hugo server -D --baseURL http://localhost:1313/ — local dev server, drafts included
 hugo --minify   # production build into public/ (same command CI runs)
 
 hugo new posts/my-post.en.md   # new English post (uses archetypes/posts.md)
@@ -44,13 +44,20 @@ behavior, copy the template into the matching path under `layouts/` and edit the
 lookup order prefers project `layouts/` over the theme's.
 
 **Existing layout overrides** (each is a deliberate copy-and-modify of a theme file):
-- `layouts/partials/home_info.html` — adds social icons to the homepage intro block
+- `layouts/_default/list.html` — sends cards with an `externalUrl` front-matter parameter to that URL
+  and opens it in a new tab. Keep the rest of this template in sync with PaperMod when upgrading
 - `layouts/partials/header.html` — adds `target="_blank" rel="noopener noreferrer"` to nav entries whose
   URL has a scheme, so off-site links (Habr) open in a new tab. Scheme-based rather than
-  name-based, so new external menu items need no template change
+  name-based, so new external menu items need no template change. Language-switch links use
+  `.RelPermalink` to preserve the current host during local development; keep this partial uncached
+  so navigation reflects the current language and menu configuration
+- `layouts/partials/translation_list.html` — replaces the deprecated `.Language.LanguageName` with
+  `.Language.Label`; keep in sync with the theme template
+- `layouts/shortcodes/external-article-link.html` — renders a visibly styled outbound link that opens
+  in a new tab; use it on external-article stub pages
 - `layouts/partials/comments.html` — Disqus embed (`kazakov-ru-net` shortname)
-- `layouts/partials/svg.html` — full copy of the theme's icon set with a `substack` branch added before
-  the fallback. `socialIcons` entries whose `name` has no branch here silently render a generic
+- `layouts/partials/svg.html` — full copy of the theme's icon set with `substack` and `habr` branches
+  added before the fallback. `socialIcons` entries whose `name` has no branch here silently render a generic
   chain-link icon, so adding a social link means adding its mark here too
 - `layouts/partials/post_meta.html` — adds `| safeHTML` to the `delimit` separator. Upstream passes
   `"&nbsp;·&nbsp;"` through `delimit`, which returns a plain string, so Hugo escapes the `&` and
@@ -66,6 +73,11 @@ lookup order prefers project `layouts/` over the theme's.
 `assets/css/extended/custom.css` is PaperMod's supported extension point (`params.assets.extended:
 true` in config.yml). Put project CSS there and keep theme assets untouched.
 
+**Local-safe links.** `make run` sets `baseURL` to `http://localhost:1313/`. Use relative paths or
+`.RelPermalink` for internal navigation so links stay on the current host. Do not hard-code the
+production domain or use `.Permalink` for links intended to preserve the local host. Absolute
+production URLs remain appropriate for canonical metadata and external distribution links.
+
 **Multilingual content.** Language is encoded in the filename suffix, not in directories, as in
 `content/about.en.md` and `content/about.ru.md`. English is `weight: 1` and served at the root;
 Russian is `weight: 2` and served under `/ru/`. Every content page and menu entry needs English and
@@ -75,6 +87,13 @@ language in `config.yml`.
 
 **`mainSections: ["posts"]` in `config.yml` shows posts on the homepage.** Keep this enabled while
 published posts live in `content/posts/`; their cards are the homepage links to those articles.
+
+**External publications can use homepage cards without copying the article.** Add paired language
+metadata files under `content/posts/` and set `externalUrl` to the publication URL. For a same-site
+English article linked from a Russian stub, use a root-relative path such as `/posts/slug/` so it
+works on both localhost and production. Stubs should include a visible outbound link using the
+`external-article-link` shortcode; it opens in a new tab. Keep language pairs aligned so both homepages
+show the same set of cards.
 
 ## Publishing conventions
 
@@ -116,5 +135,7 @@ undone by accident:
   language tag) and leaked verbatim into `<html lang>`, RSS `<language>`, and sitemap `hreflang`.
   Replaced by a per-language `locale` (`en-US` / `ru-RU`), which is where Hugo expects it;
   Site LanguageCode → Site Language Locale in `layouts/_default/rss.xml`
-- `layouts/_default/baseof.html` is a new override existing **only** to swap the deprecated
-  LanguageDirection for Direction. Keep it in sync when bumping the theme.
+- `layouts/_default/baseof.html` overrides the deprecated LanguageDirection with Direction and renders
+  the header without partial caching. Keep it in sync when bumping the theme.
+- `layouts/partials/translation_list.html` overrides the theme's deprecated LanguageName calls with
+  Label. Keep it in sync when bumping the theme.

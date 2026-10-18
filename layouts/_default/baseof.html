@@ -2,6 +2,7 @@
 {{- /* Copy of the theme's baseof.html; only the `dir` attribute differs.
        Upstream uses .Language.LanguageDirection, deprecated in Hugo v0.158.0
        in favour of .Language.Direction. */ -}}
+<!--suppress HtmlRequiredTitleElement -->
 <html lang="{{ .Site.Language }}" dir="{{ .Language.Direction | default "auto" }}">
 
 <head>
@@ -16,7 +17,7 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header.html" . .Page -}}
+    {{- partial "header.html" . -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>

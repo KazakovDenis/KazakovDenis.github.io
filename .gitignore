@@ -1,3 +1,4 @@
 .idea
 public
 .claude/settings.local.json
+.hugo_build.lock
