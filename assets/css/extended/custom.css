@@ -5,3 +5,15 @@
 .profile_inner img {
     filter: var(--inverted);
 }
+
+.post-content h2[id="1-take-on-the-cognitive-load-yourself"],
+.post-content h2[id="2-be-clear-about-where-the-work-came-from"],
+.post-content h2[id="3-dont-outsource-fact-checking-to-the-reader"],
+.post-content h2[id="4-be-careful-with-other-peoples-work"],
+.post-content h2[id="5-use-ai-when-it-actually-helps"] {
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+    border-radius: 0.5rem;
+    background: var(--entry);
+}
