@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Communication on Denis Kazakov</title>
+    <link>https://deniskazakov.com/tags/communication/</link>
+    <description>Recent content in Communication on Denis Kazakov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 11 Oct 2026 22:47:07 +0400</lastBuildDate><atom:link href="https://deniskazakov.com/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Etiquette, or Sent using @AI</title>
+      <link>https://deniskazakov.com/posts/ai-etiquette/</link>
+      <pubDate>Sun, 11 Oct 2026 22:47:07 +0400</pubDate>
+      
+      <guid>https://deniskazakov.com/posts/ai-etiquette/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take on the cognitive load: edit and shorten AI drafts.&lt;/li&gt;
+&lt;li&gt;Be clear about AI’s role when it affects how people should read the work.&lt;/li&gt;
+&lt;li&gt;Check facts and sources before sharing them.&lt;/li&gt;
+&lt;li&gt;Ask before using someone else’s work with an AI tool.&lt;/li&gt;
+&lt;li&gt;Use AI when it helps; write it yourself when it doesn’t.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;did-ai-save-time-for-the-team-or-only-for-me&#34;&gt;Did AI save time for the team, or only for me?&lt;/h2&gt;
+&lt;p&gt;Generative AI makes it easy to produce messages, documents and presentations. But saving time for the person writing them does not always save time for the team. Sometimes using AI saves the writer ten minutes and costs everyone else twenty minutes trying to make sense of the result.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

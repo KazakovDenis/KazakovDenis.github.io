@@ -2,19 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://deniskazakov.com/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://deniskazakov.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-RU"
-                href="https://deniskazakov.com/ru/categories/"
-                />
+    <loc>https://deniskazakov.com/tags/ai/</loc>
+    <lastmod>2026-10-11T22:47:07+04:00</lastmod>
+  </url><url>
+    <loc>https://deniskazakov.com/posts/ai-etiquette/</loc>
+    <lastmod>2026-10-11T22:47:07+04:00</lastmod>
+  </url><url>
+    <loc>https://deniskazakov.com/tags/communication/</loc>
+    <lastmod>2026-10-11T22:47:07+04:00</lastmod>
   </url><url>
     <loc>https://deniskazakov.com/</loc>
+    <lastmod>2026-10-11T22:47:07+04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -26,19 +24,8 @@
                 href="https://deniskazakov.com/ru/"
                 />
   </url><url>
-    <loc>https://deniskazakov.com/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://deniskazakov.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-RU"
-                href="https://deniskazakov.com/ru/about/"
-                />
-  </url><url>
     <loc>https://deniskazakov.com/posts/</loc>
+    <lastmod>2026-10-11T22:47:07+04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -51,6 +38,7 @@
                 />
   </url><url>
     <loc>https://deniskazakov.com/tags/</loc>
+    <lastmod>2026-10-11T22:47:07+04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -60,6 +48,30 @@
                 rel="alternate"
                 hreflang="ru-RU"
                 href="https://deniskazakov.com/ru/tags/"
+                />
+  </url><url>
+    <loc>https://deniskazakov.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/categories/"
+                />
+  </url><url>
+    <loc>https://deniskazakov.com/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/about/"
                 />
   </url>
 </urlset>
