@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Communication on Денис Казаков</title>
+    <link>https://deniskazakov.com/ru/tags/communication/</link>
+    <description>Recent content in Communication on Денис Казаков</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sun, 18 Oct 2026 22:47:07 +0400</lastBuildDate><atom:link href="https://deniskazakov.com/ru/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Этика использования ИИ, или Sent using @AI</title>
+      <link>https://deniskazakov.com/ru/posts/ai-etiquette/</link>
+      <pubDate>Sun, 18 Oct 2026 22:47:07 +0400</pubDate>
+      
+      <guid>https://deniskazakov.com/ru/posts/ai-etiquette/</guid>
+      <description>О том, как использовать ИИ в работе, не перекладывая лишнюю нагрузку на коллег.</description>
+    </item>
+    
+  </channel>
+</rss>

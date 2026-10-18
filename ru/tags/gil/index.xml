@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GIL on Денис Казаков</title>
+    <link>https://deniskazakov.com/ru/tags/gil/</link>
+    <description>Recent content in GIL on Денис Казаков</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Wed, 20 Mar 2024 10:30:00 +0300</lastBuildDate><atom:link href="https://deniskazakov.com/ru/tags/gil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GIL в Python: как его будут отключать</title>
+      <link>https://deniskazakov.com/ru/posts/gil-python/</link>
+      <pubDate>Wed, 20 Mar 2024 10:30:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/ru/posts/gil-python/</guid>
+      <description>Разбираю PEP 703 и предлагаемые изменения для отключения GIL в CPython.</description>
+    </item>
+    
+  </channel>
+</rss>

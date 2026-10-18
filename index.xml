@@ -28,6 +28,24 @@
     </item>
     
     <item>
+      <title>The 1001st Way to Migrate to Asynchronous Python</title>
+      <link>https://deniskazakov.com/posts/async-python/</link>
+      <pubDate>Wed, 25 Sep 2024 15:35:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/posts/async-python/</guid>
+      <description>A case study on gradually introducing asyncio into a large Django application.</description>
+    </item>
+    
+    <item>
+      <title>GIL in Python: How It Will Be Disabled</title>
+      <link>https://deniskazakov.com/posts/gil-python/</link>
+      <pubDate>Wed, 20 Mar 2024 10:30:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/posts/gil-python/</guid>
+      <description>An overview of PEP 703 and the proposed changes for making the GIL optional in CPython.</description>
+    </item>
+    
+    <item>
       <title>Denis Kazakov</title>
       <link>https://deniskazakov.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -25,5 +25,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Asyncio</title>
+      <link>https://deniskazakov.com/tags/asyncio/</link>
+      <pubDate>Wed, 25 Sep 2024 15:35:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/tags/asyncio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://deniskazakov.com/tags/python/</link>
+      <pubDate>Wed, 25 Sep 2024 15:35:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GIL</title>
+      <link>https://deniskazakov.com/tags/gil/</link>
+      <pubDate>Wed, 20 Mar 2024 10:30:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/tags/gil/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

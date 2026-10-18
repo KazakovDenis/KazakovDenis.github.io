@@ -4,12 +4,42 @@
   <url>
     <loc>https://deniskazakov.com/tags/ai/</loc>
     <lastmod>2026-10-18T22:47:07+04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/tags/ai/"
+                />
   </url><url>
     <loc>https://deniskazakov.com/posts/ai-etiquette/</loc>
     <lastmod>2026-10-18T22:47:07+04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/posts/ai-etiquette/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/posts/ai-etiquette/"
+                />
   </url><url>
     <loc>https://deniskazakov.com/tags/communication/</loc>
     <lastmod>2026-10-18T22:47:07+04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/tags/communication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/tags/communication/"
+                />
   </url><url>
     <loc>https://deniskazakov.com/</loc>
     <lastmod>2026-10-18T22:47:07+04:00</lastmod>
@@ -48,6 +78,71 @@
                 rel="alternate"
                 hreflang="ru-RU"
                 href="https://deniskazakov.com/ru/tags/"
+                />
+  </url><url>
+    <loc>https://deniskazakov.com/tags/asyncio/</loc>
+    <lastmod>2024-09-25T15:35:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/tags/asyncio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/tags/asyncio/"
+                />
+  </url><url>
+    <loc>https://deniskazakov.com/tags/python/</loc>
+    <lastmod>2024-09-25T15:35:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/tags/python/"
+                />
+  </url><url>
+    <loc>https://deniskazakov.com/posts/async-python/</loc>
+    <lastmod>2024-09-25T15:35:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/posts/async-python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/posts/async-python/"
+                />
+  </url><url>
+    <loc>https://deniskazakov.com/tags/gil/</loc>
+    <lastmod>2024-03-20T10:30:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/tags/gil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/tags/gil/"
+                />
+  </url><url>
+    <loc>https://deniskazakov.com/posts/gil-python/</loc>
+    <lastmod>2024-03-20T10:30:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://deniskazakov.com/posts/gil-python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://deniskazakov.com/ru/posts/gil-python/"
                 />
   </url><url>
     <loc>https://deniskazakov.com/categories/</loc>

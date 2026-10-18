@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Asyncio on Denis Kazakov</title>
+    <link>https://deniskazakov.com/tags/asyncio/</link>
+    <description>Recent content in Asyncio on Denis Kazakov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 25 Sep 2024 15:35:00 +0300</lastBuildDate><atom:link href="https://deniskazakov.com/tags/asyncio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 1001st Way to Migrate to Asynchronous Python</title>
+      <link>https://deniskazakov.com/posts/async-python/</link>
+      <pubDate>Wed, 25 Sep 2024 15:35:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/posts/async-python/</guid>
+      <description>A case study on gradually introducing asyncio into a large Django application.</description>
+    </item>
+    
+  </channel>
+</rss>

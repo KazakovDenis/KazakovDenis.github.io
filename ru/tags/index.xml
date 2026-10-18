@@ -5,6 +5,52 @@
     <link>https://deniskazakov.com/ru/tags/</link>
     <description>Recent content in Tags on Денис Казаков</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru-RU</language><atom:link href="https://deniskazakov.com/ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru-RU</language>
+    <lastBuildDate>Sun, 18 Oct 2026 22:47:07 +0400</lastBuildDate><atom:link href="https://deniskazakov.com/ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://deniskazakov.com/ru/tags/ai/</link>
+      <pubDate>Sun, 18 Oct 2026 22:47:07 +0400</pubDate>
+      
+      <guid>https://deniskazakov.com/ru/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication</title>
+      <link>https://deniskazakov.com/ru/tags/communication/</link>
+      <pubDate>Sun, 18 Oct 2026 22:47:07 +0400</pubDate>
+      
+      <guid>https://deniskazakov.com/ru/tags/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asyncio</title>
+      <link>https://deniskazakov.com/ru/tags/asyncio/</link>
+      <pubDate>Wed, 25 Sep 2024 15:35:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/ru/tags/asyncio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://deniskazakov.com/ru/tags/python/</link>
+      <pubDate>Wed, 25 Sep 2024 15:35:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/ru/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GIL</title>
+      <link>https://deniskazakov.com/ru/tags/gil/</link>
+      <pubDate>Wed, 20 Mar 2024 10:30:00 +0300</pubDate>
+      
+      <guid>https://deniskazakov.com/ru/tags/gil/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
