@@ -17,3 +17,16 @@
     border-radius: 0.5rem;
     background: var(--entry);
 }
+.external-article-link {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius);
+  background: var(--code-bg);
+  font-weight: 600;
+}
+
+.external-article-link a {
+  color: var(--primary);
+}

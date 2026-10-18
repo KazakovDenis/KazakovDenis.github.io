@@ -91,3 +91,8 @@ Did AI save time for the team, or only for me?
 If the answer is “just me,” I know I have another edit to make before I send it.
 
 *I wrote the first draft of this article myself, then used AI to help revise and shorten it. I reviewed the final version and decided what to keep.*
+
+## Also published on
+
+- [LinkedIn](https://www.linkedin.com/pulse/ai-etiquette-sent-using-denis-kazakov-ltrdf/)
+- [Substack](https://deniskazakov2.substack.com/p/ai-etiquette-or-sent-using-ai)
