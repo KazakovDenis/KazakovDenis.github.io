@@ -56,12 +56,12 @@ lookup order prefers project `layouts/` over the theme's.
   `"&nbsp;·&nbsp;"` through `delimit`, which returns a plain string, so Hugo escapes the `&` and
   the separator shows up as literal `&nbsp;·&nbsp;` text in the meta line
 - `layouts/partials/templates/opengraph.html`, `layouts/partials/templates/twitter_cards.html` — copies that read
-  `site.Params.social.*` instead of the removed Site Social API; they exist only to keep newer Hugo versions from erroring
+  social values from site parameters instead of the removed Site Social API; they exist only to keep newer Hugo versions from erroring
 - `layouts/_internal/google_analytics.html` — overrides Hugo's built-in template to inject **both** GA4 and
   Yandex.Metrika. Yandex.Metrika lives here, not in config, because this is the only hook Hugo calls
   for analytics
 - `layouts/_internal/google_news.html` — intentionally empty, suppresses the built-in template
-- `layouts/_default/rss.xml` — RSS copy updated for the `site.Params.author` map/slice form
+- `layouts/_default/rss.xml` — RSS copy updated for the author parameter's map/slice form
 
 `assets/css/extended/custom.css` is PaperMod's supported extension point (`params.assets.extended:
 true` in config.yml). Put project CSS there and keep theme assets untouched.
@@ -69,7 +69,7 @@ true` in config.yml). Put project CSS there and keep theme assets untouched.
 **Multilingual content.** Language is encoded in the filename suffix, not in directories, as in
 `content/about.en.md` and `content/about.ru.md`. English is `weight: 1` and served at the root;
 Russian is `weight: 2` and served under `/ru/`. Every content page and menu entry needs English and
-Russian counterparts, and internal links must be language-aware (`/projects/` in English content,
+Russian counterparts; write internal links in the matching language (`/projects/` in English content,
 `/ru/projects/` in Russian). Menus and homepage intro text are configured separately for each
 language in `config.yml`.
 
@@ -77,6 +77,8 @@ language in `config.yml`.
 published posts live in `content/posts/`; their cards are the homepage links to those articles.
 
 ## Publishing conventions
+
+When working with content, follow the [content workflow](.agents/rules/content-workflow.md).
 
 Before editing or reviewing copy in `content/posts/`, follow the [article editing rules](.agents/rules/article-editing.md).
 
